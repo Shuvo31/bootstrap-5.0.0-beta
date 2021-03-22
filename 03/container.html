@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<meta http-equiv="X-UA-compatible" content="ie=edge">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css">
+	<title>Document</title>
+
+	<style >
+		.green{
+			background-color: green;
+			height: 100vh; 
+		}
+		/*xs*/
+		@media(max-width: 575px){
+			.green{
+			background-color: red;
+			height: 100vh; 
+		}
+
+	}
+	/*sm*/
+	@media(min-width: 576px) and (max-width: 767px){
+		.green{
+			background-color: blue;
+			height: 100vh; 
+		}
+	}
+@media(min-width: 768px) and (max-width: 991px){
+		.green{
+			background-color: black;
+			height: 100vh; 
+		}
+	}
+	@media(min-width: 992px) and (max-width: 1199px){
+		.green{
+			background-color: orange;
+			height: 100vh; 
+		}
+	}
+	@media(min-width: 1200px) {
+		.green{
+			background-color: #c1c1c1;
+			height: 100vh; 
+		}
+	}
+
+
+
+
+
+
+
+
+	</style>
+</head>
+<body>
+<h1>I Love my India.</h1>
+<div class="container-fluid green">aaa</div>
+
+</body>
+<script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.7/js/tether.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js"></script>
+</html>
